@@ -1,0 +1,47 @@
+h1{
+    color: blue;
+}
+
+body{
+    background-image: url("img/A\ simple\ logo\ for\ Dayli\ Health\ Pioneering\ the\ futu\ \(12\).jpg");
+    background-repeat: no-repeat;
+    background-position: 100px;
+    background-attachment: scroll;
+}
+
+h1{
+   /* font families*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500px;
+    font-variant:small-caps ;
+    font-style: italic;
+    color: blueviolet;
+    background-color: chocolate;
+
+    /*text properties*/
+    color: brown;/*adding color to text*/
+    direction: rtl;
+    letter-spacing: 1px;
+    word-spacing: 500px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 4px 2px 6px blue;/*px,pt,in,mm,cm,%,rem,em*/
+
+
+
+}
+
+div{
+    width: 100px; 
+    height:100px ;  
+    background-color: aqua;
+    border-left: 4px solid brown;
+    border-right: 4px solid rebeccapurple;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 10px;
+    margin-bottom: 10px;
+}

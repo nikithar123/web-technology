@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relationship Predictor</title>
+    <link rel="stylesheet" href="nik.css">
+</head>
+<body>
+    <h1>Relationship Predictor</h1>
+    <background img="img/img\A simple logo for Dayli Health Pioneering the futu (12).jpg"></background>
+    <input type="text" name=""  id="name" placeholder="Enter your name">
+    <button type="submit" id="submit" onclick="result()"> CHECK</button>
+    <br>
+    <input type="text" name=""  id="name" placeholder="Enter your crush name">
+    <button type="submit" id="submit"  onclick="result()"> CHECK</button>
+    <br>
+    <p id="result"></p>
+
+
+    <style>
+    
+    </style>
+
+<script>
+      function result(){
+        const name=document.getElementById('name');
+        const crush=document.getElementById('crush');
+        var marks=Math.random()*100;
+        var result=document.getElementById('result');
+        result.innerHTML="probability of getting with relationship is"+" "+marks;
+      }
+
+       /* if(marks<35){
+            result.innerHTML="your result is F";
+
+        }else if(marks>=35){
+            result.innerHTML="you are pass";
+        }
+        else if(marks>35&&marks<51){
+            result.innerHTML=
+        }
+    }*/
+
+</script>
+</body>
+</html>
